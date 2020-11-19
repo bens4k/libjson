@@ -48,5 +48,37 @@ make all
 sudo make install
 ```
 
+## Example
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include "json.h"
+
+int main(int argc, char *argv[]){
+	char* contents = " {\"string\" : \"hello\" , \"boolean\": true, \"list\": [1, 2, 3], \"object\": { \"null\" : null } } ";
+	void* root = newjs(contents);
+	if(root != NULL){
+		char* cc = strjs(root);
+		printf("%s\n", cc);
+		free(cc);
+		
+		void* newroot = setjs(root, "string", "[\"hello\", \"world\"]");
+		if(newroot != NULL){
+			cc = strjs(newroot);
+			printf("%s\n", cc);
+			free(cc);
+			freejs(newroot);
+		}
+
+		freejs(root);
+	}
+	return 0;
+}
+```
+Compile the example using `gcc` with the following command:
+```bash
+gcc test.c -o test -lm -ljson
+```
+
 ## Modifications
 The source code is available in the `seperated` folder. After any modifications, source files can be combined into a single `.c` and `.h` files   using the python script `combiner.py` the output is located in the `combined` folder.
