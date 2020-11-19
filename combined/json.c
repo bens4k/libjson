@@ -123,7 +123,7 @@ char char_to_digit(const char c);
 char digit_to_char(const char d);
 
 CString *join(const CString *cs1, const CString *cs2, char delimiter);
-CString *joinwstr(const CString *cs, char* s, char delimiter);
+CString *joinstr(const CString *cs, char* s, char delimiter);
 CString *enclose(const CString *cs, char c1, char c2);
 CString *lowercase(const CString *cs);
 CString *unescape_special_chars(const CString *src_cs);
