@@ -1,5 +1,0 @@
-/usr/local/lib/libjson.so.1.0.0
-/usr/local/lib/libjson.so.1
-/usr/local/lib/libjson.so
-/usr/local/include/json.h
-/usr/local/share/pkgconfig/json.pc
