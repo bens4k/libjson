@@ -1,7 +1,7 @@
 # libjson
-A Library for Parsing and Editing json files in C
+A Simple C Library for Parsing and Editing json files
 
-## API
+## Interface functions
 ```c
 void* clonejs(void* node)
 ```

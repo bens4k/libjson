@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Google Drive/Projects/Lib JSON/combined/json.c
+json.h
+/mnt/d/Google Drive/Projects/Lib JSON/combined/json.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+
+/mnt/d/Google Drive/Projects/Lib JSON/combined/json.h
+
