@@ -41,12 +41,13 @@ returns a void* pointer to the node with index `i` from the list in `node`.
 
 
 ## Build and Install
-To build the library you need to have `cmake`, `make` and `gcc` installed. Navigate to the `combined\build` folder and run the following commands:
+To build the library for linux you need to have `cmake`, `make` and `gcc` installed. Navigate to the `combined\build` folder and run the following commands:
 ```bash
 cmake ..
 make all
 sudo make install
 ```
+For Windows follow the instructions in the included PDF located in `src_single_file\build\Windows X64\creating-a-c-library-in-visual-studio-2019-bytellect001.pdf`
 
 ## Example
 ```c
