@@ -82,4 +82,4 @@ gcc test.c -o test -lm -ljson
 ```
 
 ## Modifications
-The source code is available in the `seperated` folder. After any modifications, source files can be combined into a single `.c` and `.h` files   using the python script `combiner.py` the output is located in the `combined` folder.
+The source code is available in the `src_multiple_files` folder. After any modifications, source files can be combined into a single `.c` and `.h` files   using the python script `combine.py` the output is located in the `src_single_file` folder.
