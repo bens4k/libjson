@@ -1,0 +1,7 @@
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/edit_cache.dir
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/install/strip.dir
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/json.dir
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/list_install_components.dir
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/install/local.dir
+/mnt/d/Google Drive/Projects/Lib JSON/combined/build/CMakeFiles/install.dir
